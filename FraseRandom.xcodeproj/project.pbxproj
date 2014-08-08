@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E5E59331994D960009B0652 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5E59321994D960009B0652 /* TableViewController.m */; };
+		6E5E59361994EFD3009B0652 /* UIColor+HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5E59351994EFD3009B0652 /* UIColor+HexColors.m */; };
 		6E8567951994D39B00C4F415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8567941994D39B00C4F415 /* Foundation.framework */; };
 		6E8567971994D39B00C4F415 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8567961994D39B00C4F415 /* CoreGraphics.framework */; };
 		6E8567991994D39B00C4F415 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8567981994D39B00C4F415 /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E5E59311994D960009B0652 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		6E5E59321994D960009B0652 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		6E5E59341994EFD3009B0652 /* UIColor+HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColors.h"; path = "../../../../Downloads/UIColor-HexValues-master/UIColor+HexColors.h"; sourceTree = "<group>"; };
+		6E5E59351994EFD3009B0652 /* UIColor+HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColors.m"; path = "../../../../Downloads/UIColor-HexValues-master/UIColor+HexColors.m"; sourceTree = "<group>"; };
 		6E8567911994D39B00C4F415 /* FraseRandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FraseRandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8567941994D39B00C4F415 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E8567961994D39B00C4F415 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,9 +118,13 @@
 		6E85679A1994D39B00C4F415 /* FraseRandom */ = {
 			isa = PBXGroup;
 			children = (
+				6E5E59341994EFD3009B0652 /* UIColor+HexColors.h */,
+				6E5E59351994EFD3009B0652 /* UIColor+HexColors.m */,
 				6E8567A31994D39B00C4F415 /* AppDelegate.h */,
 				6E8567A41994D39B00C4F415 /* AppDelegate.m */,
 				6E8567A61994D39B00C4F415 /* Main.storyboard */,
+				6E5E59311994D960009B0652 /* TableViewController.h */,
+				6E5E59321994D960009B0652 /* TableViewController.m */,
 				6E8567A91994D39B00C4F415 /* ViewController.h */,
 				6E8567AA1994D39B00C4F415 /* ViewController.m */,
 				6E8567AC1994D39B00C4F415 /* Images.xcassets */,
@@ -252,6 +262,8 @@
 				6E8567AB1994D39B00C4F415 /* ViewController.m in Sources */,
 				6E8567A51994D39B00C4F415 /* AppDelegate.m in Sources */,
 				6E8567A11994D39B00C4F415 /* main.m in Sources */,
+				6E5E59361994EFD3009B0652 /* UIColor+HexColors.m in Sources */,
+				6E5E59331994D960009B0652 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +468,7 @@
 				6E8567C51994D39C00C4F415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E8567C61994D39C00C4F415 /* Build configuration list for PBXNativeTarget "FraseRandomTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				6E8567C81994D39C00C4F415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
